@@ -1,0 +1,57 @@
+<!-- Rishabh Sharma - 21BCE11196 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        .container {
+            border: 2px solid #000;
+            padding: 5px; 
+            width: 500px;
+        }
+        ul {
+            list-style-type: none; 
+            padding: 0;
+        }
+        ul li {
+            margin-left: 20px;
+            line-height: 1.5; 
+        }
+        ul li:before {
+            content: "\2022";
+            margin-right: 5px; 
+        }
+        ul ul {
+            margin-left: 20px; 
+        }
+        ul ul li:before {
+            content: "\2023";
+        }
+    </style>
+</head>
+
+<body>
+<div class="container"> 
+    <h2>Lists can be nested (list inside list)</h2>
+    <ul type="round">
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>
+                    Black Tea
+                </li>
+                <li>
+                    Green Tea
+                </li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+</div>
+</body>
+
+</html>
